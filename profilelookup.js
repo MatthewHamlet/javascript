@@ -33,10 +33,9 @@ function lookUpProfile (name, property){
       }else{
         return "No such property"
       }
-    }else{
-      return "No such contact"
     }
   }
+  return "No such contact"
 }
 
-console.log(lookUpProfile("Akira", "lastName"))
+console.log(lookUpProfile("Kristian", "lastName"))
